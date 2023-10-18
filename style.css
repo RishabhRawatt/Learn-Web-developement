@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Neue Montreal";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d3d0bd;
+  color: #272525;
+}
+
+.preview {
+  position: absolute;
+  width: 400px;
+  height: 150px;
+  overflow: hidden;
+  pointer-events: none;
+  transform-origin: center;
+  transform: scale(0);
+  z-index: 2;
+  border-radius: 10px;
+}
+
+.preview-img {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  /* background: url(./previewImg/p1.jpg); */
+  background-size: cover;
+  background-position: 0 0;
+  pointer-events: none;
+}
+
+p {
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 100%;
+}
+
+#header p {
+  opacity: 0.5;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container a {
+  text-decoration: none;
+  color: #272525;
+}
+
+.projects {
+  width: calc(70% + 25%); /* Add the width of the scrollbar to compensate */
+  max-height: 75vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Adjust the styles for the scrollbar */
+.projects::-webkit-scrollbar {
+  width: 10px; /* Set the width of the scrollbar */
+  border-radius: 10px;
+}
+
+.projects::-webkit-scrollbar-thumb {
+  background-color: #d1c997; /* Color of the scrollbar thumb */
+}
+
+.projects::-webkit-scrollbar-track {
+  background-color: #eee; /* Color of the scrollbar track */
+}
+
+.project {
+  width: 100;
+  padding: 2.5em 1em;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  cursor: pointer;
+}
+
+/* div element inside each project */
+.project > div {
+  flex: 3;
+}
+
+.project div:last-child {
+  flex: 1;
+}
+
+@media (max-width: 900px) {
+  .keywords {
+    display: none;
+  }
+}
