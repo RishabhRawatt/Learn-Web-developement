@@ -31,6 +31,8 @@ const projectMapping = {
   p22: "drawingBoard",
   p23: "kineticCssLoader",
   p24: "contentPlaceholder",
+  p25: "stickyNavbar",
+  p26: "doubleVerticalSlider",
 };
 
 let isInside = false;
@@ -180,6 +182,18 @@ document.addEventListener("DOMContentLoaded", function () {
       id: "p24",
       number: "24",
       name: "Content Placeholder",
+      keywords: "keywords",
+    },
+    {
+      id: "p25",
+      number: "25",
+      name: "Sticky Navbar",
+      keywords: "keywords",
+    },
+    {
+      id: "p26",
+      number: "26",
+      name: "Double Vertical Slider",
       keywords: "keywords",
     },
   ];
