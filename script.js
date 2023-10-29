@@ -33,6 +33,7 @@ const projectMapping = {
   p24: "contentPlaceholder",
   p25: "stickyNavbar",
   p26: "doubleVerticalSlider",
+  p27: "toastNotification",
 };
 
 let isInside = false;
@@ -194,6 +195,12 @@ document.addEventListener("DOMContentLoaded", function () {
       id: "p26",
       number: "26",
       name: "Double Vertical Slider",
+      keywords: "keywords",
+    },
+    {
+      id: "p27",
+      number: "27",
+      name: "Toast Notification",
       keywords: "keywords",
     },
   ];
