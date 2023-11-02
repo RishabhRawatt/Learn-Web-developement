@@ -34,6 +34,7 @@ const projectMapping = {
   p25: "stickyNavbar",
   p26: "doubleVerticalSlider",
   p27: "toastNotification",
+  p28: "githubProfiles",
 };
 
 let isInside = false;
@@ -202,6 +203,12 @@ document.addEventListener("DOMContentLoaded", function () {
       number: "27",
       name: "Toast Notification",
       keywords: "keywords",
+    },
+    {
+      id: "p28",
+      number: "28",
+      name: "Github Profiles",
+      keywords: "Axios, github Api",
     },
   ];
 
