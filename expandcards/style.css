@@ -1,68 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap");
 
-*{
-
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-body{
-
-    font-family: 'Muli',sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    overflow: hidden;
-    margin: 0;
+body {
+  font-family: "Muli", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
 }
 
 .container {
-display: flex;
-width: 90vw;
-
+  display: flex;
+  width: 90vw;
 }
 
-.pannel{
-    background-size:cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 80vh;
-    border-radius: 20px;
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-    flex:0.3;
-    margin:5px;
-    position: relative;
-    transition: flex 0.7s ease-in;
+.pannel {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  flex: 0.3;
+  margin: 5px;
+  position: relative;
+  transition: flex 0.7s ease-in;
 }
 
-.pannel h3{
-    font-size:  24px;
-    position: absolute;
-    bottom:20px;
-    left:20px;
-    margin: 0;
-    
-    /* opacity zero so unactive flex box dont show description */
-    opacity: 0;
+.pannel h3 {
+  font-size: 24px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+
+  /* opacity zero so unactive flex box dont show description */
+  opacity: 0;
 }
 
-.pannel.active{
-
-    flex:5;
+.pannel.active {
+  flex: 5;
 }
 
-.pannel.active h3{
-    opacity: 1;
-    transition: opacity 0.3s ease-in 0.4s;
+.pannel.active h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
 }
 
-@media(max-width: 480px){
-    .container{
-        width: 100vw;
-    }
+@media (max-width: 480px) {
+  .container {
+    width: 100vw;
+  }
 
-    .pannel:nth-of-type(4),.pannel:nth-of-type(5){
-        display: none;
-    }
+  .pannel:nth-of-type(4),
+  .pannel:nth-of-type(5) {
+    display: none;
+  }
 }
