@@ -36,6 +36,7 @@ const projectMapping = {
   p27: "toastNotification",
   p28: "githubProfiles",
   p29: "doubleHeartClick",
+  p30: "autoTextEffect",
 };
 
 let isInside = false;
@@ -216,6 +217,12 @@ document.addEventListener("DOMContentLoaded", function () {
       number: "29",
       name: "Double Click Heart",
       keywords: " Custom Events",
+    },
+    {
+      id: "p30",
+      number: "30",
+      name: "Auto Text Effect",
+      keywords: " setimeout",
     },
   ];
 
