@@ -37,6 +37,7 @@ const projectMapping = {
   p28: "githubProfiles",
   p29: "doubleHeartClick",
   p30: "autoTextEffect",
+  p31: "passwordGenerator",
 };
 
 let isInside = false;
@@ -223,6 +224,12 @@ document.addEventListener("DOMContentLoaded", function () {
       number: "30",
       name: "Auto Text Effect",
       keywords: " setimeout",
+    },
+    {
+      id: "p31",
+      number: "31",
+      name: "Password Generator",
+      keywords: "Random,ASCII",
     },
   ];
 
