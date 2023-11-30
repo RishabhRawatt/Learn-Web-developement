@@ -21,7 +21,7 @@ clipboardEL.addEventListener("click", () => {
     return;
   }
   textarea.value = password;
-  //   document.body.appendChild(textarea);
+  document.body.appendChild(textarea);
   // textarea.select();
   //   document.execCommand("copy");
   //   textarea.remove();
