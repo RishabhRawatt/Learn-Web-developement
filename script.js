@@ -38,6 +38,7 @@ const projectMapping = {
   p29: "doubleHeartClick",
   p30: "autoTextEffect",
   p31: "passwordGenerator",
+  p32: "toggleCheckbox",
 };
 
 let isInside = false;
@@ -230,6 +231,12 @@ document.addEventListener("DOMContentLoaded", function () {
       number: "31",
       name: "Password Generator",
       keywords: "Random,ASCII",
+    },
+    {
+      id: "p32",
+      number: "32",
+      name: "Toggle Checkboxes",
+      keywords: "checkbox,animation",
     },
   ];
 
