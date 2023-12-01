@@ -39,6 +39,7 @@ const projectMapping = {
   p30: "autoTextEffect",
   p31: "passwordGenerator",
   p32: "toggleCheckbox",
+  p33: "notesApp",
 };
 
 let isInside = false;
@@ -230,13 +231,19 @@ document.addEventListener("DOMContentLoaded", function () {
       id: "p31",
       number: "31",
       name: "Password Generator",
-      keywords: "Random,ASCII",
+      keywords: "Random, ASCII",
     },
     {
       id: "p32",
       number: "32",
       name: "Toggle Checkboxes",
-      keywords: "checkbox,animation",
+      keywords: "checkbox ,Animation",
+    },
+    {
+      id: "p33",
+      number: "33",
+      name: "Notes App",
+      keywords: "LocalStorage , Markdown",
     },
   ];
 

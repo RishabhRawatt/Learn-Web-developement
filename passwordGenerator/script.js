@@ -22,10 +22,10 @@ clipboardEL.addEventListener("click", () => {
   }
   textarea.value = password;
   document.body.appendChild(textarea);
-  // textarea.select();
-  //   document.execCommand("copy");
-  //   textarea.remove();
+  textarea.select();
   navigator.clipboard.writeText(textarea.value);
+  // document.execCommand("copy");
+  textarea.remove();
   alert("password copied");
 });
 
