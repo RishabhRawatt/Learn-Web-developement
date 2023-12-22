@@ -40,6 +40,7 @@ const projectMapping = {
   p31: "passwordGenerator",
   p32: "toggleCheckbox",
   p33: "notesApp",
+  p34: "animatedCountdown",
 };
 
 let isInside = false;
@@ -244,6 +245,12 @@ document.addEventListener("DOMContentLoaded", function () {
       number: "33",
       name: "Notes App",
       keywords: "LocalStorage , Markdown",
+    },
+    {
+      id: "p34",
+      number: "34",
+      name: "Animated Countdown",
+      keywords: "Animation , CSS",
     },
   ];
 
