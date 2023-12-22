@@ -14,6 +14,7 @@ body {
   align-items: center;
   background: #d3d0bd;
   color: #272525;
+  overflow: hidden;
 }
 
 .preview {
@@ -33,7 +34,6 @@ body {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  /* background: url(./previewImg/p1.jpg); */
   background-size: cover;
   background-position: 0 0;
   pointer-events: none;
