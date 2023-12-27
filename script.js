@@ -41,6 +41,7 @@ const projectMapping = {
   p32: "toggleCheckbox",
   p33: "notesApp",
   p34: "animatedCountdown",
+  p35: "imageCarousel",
 };
 
 let isInside = false;
@@ -251,6 +252,12 @@ document.addEventListener("DOMContentLoaded", function () {
       number: "34",
       name: "Animated Countdown",
       keywords: "Animation , CSS",
+    },
+    {
+      id: "p35",
+      number: "35",
+      name: "Image Carousel",
+      keywords: "set-timeout , event listner",
     },
   ];
 
