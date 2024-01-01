@@ -42,6 +42,7 @@ const projectMapping = {
   p33: "notesApp",
   p34: "animatedCountdown",
   p35: "imageCarousel",
+  p36: "hoverBoard",
 };
 
 let isInside = false;
@@ -258,6 +259,12 @@ document.addEventListener("DOMContentLoaded", function () {
       number: "35",
       name: "Image Carousel",
       keywords: "set-timeout , event listner",
+    },
+    {
+      id: "p36",
+      number: "36",
+      name: "Hover Board",
+      keywords: "mouseover , random",
     },
   ];
 
