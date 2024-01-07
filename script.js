@@ -43,6 +43,7 @@ const projectMapping = {
   p34: "animatedCountdown",
   p35: "imageCarousel",
   p36: "hoverBoard",
+  p37: "pokedex",
 };
 
 let isInside = false;
@@ -265,6 +266,12 @@ document.addEventListener("DOMContentLoaded", function () {
       number: "36",
       name: "Hover Board",
       keywords: "mouseover , random",
+    },
+    {
+      id: "p37",
+      number: "37",
+      name: "Poke Dex",
+      keywords: "Api , JSON",
     },
   ];
 
