@@ -44,7 +44,7 @@ const projectMapping = {
   p35: "imageCarousel",
   p36: "hoverBoard",
   p37: "pokedex",
-  p37: "mobileTabNav",
+  p38: "mobileTabNav",
 };
 
 let isInside = false;
