@@ -44,6 +44,7 @@ const projectMapping = {
   p35: "imageCarousel",
   p36: "hoverBoard",
   p37: "pokedex",
+  p37: "mobileTabNav",
 };
 
 let isInside = false;
@@ -272,6 +273,12 @@ document.addEventListener("DOMContentLoaded", function () {
       number: "37",
       name: "Poke Dex",
       keywords: "Api , JSON",
+    },
+    {
+      id: "p38",
+      number: "38",
+      name: "Mobile Tab Nav",
+      keywords: "UI , navigation",
     },
   ];
 
