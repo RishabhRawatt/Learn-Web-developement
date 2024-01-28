@@ -45,6 +45,7 @@ const projectMapping = {
   p36: "hoverBoard",
   p37: "pokedex",
   p38: "mobileTabNav",
+  p39: "passwordStrengthBg",
 };
 
 let isInside = false;
@@ -279,6 +280,12 @@ document.addEventListener("DOMContentLoaded", function () {
       number: "38",
       name: "Mobile Tab Nav",
       keywords: "UI , navigation",
+    },
+    {
+      id: "p39",
+      number: "39",
+      name: "Password Strength Blur",
+      keywords: "Event , CSS",
     },
   ];
 
