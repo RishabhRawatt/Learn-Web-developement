@@ -46,6 +46,7 @@ const projectMapping = {
   p37: "pokedex",
   p38: "mobileTabNav",
   p39: "passwordStrengthBg",
+  p40: "verifyAccountUi",
 };
 
 let isInside = false;
@@ -286,6 +287,12 @@ document.addEventListener("DOMContentLoaded", function () {
       number: "39",
       name: "Password Strength Blur",
       keywords: "Event , CSS",
+    },
+    {
+      id: "p40",
+      number: "40",
+      name: "Verify Account UI",
+      keywords: "input , UI",
     },
   ];
 
