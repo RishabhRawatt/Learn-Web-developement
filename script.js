@@ -47,6 +47,7 @@ const projectMapping = {
   p38: "mobileTabNav",
   p39: "passwordStrengthBg",
   p40: "verifyAccountUi",
+  p41: "liveUserFilter",
 };
 
 let isInside = false;
@@ -293,6 +294,12 @@ document.addEventListener("DOMContentLoaded", function () {
       number: "40",
       name: "Verify Account UI",
       keywords: "input , UI",
+    },
+    {
+      id: "p41",
+      number: "41",
+      name: "Live user Filter",
+      keywords: "filter , API",
     },
   ];
 
