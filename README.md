@@ -2,4 +2,4 @@
 Basic Conceptual project based on Web Development 
 
 check out live preview of projects 
-http://rishabhrawat.me/Learn-Web-developement/
+https://rishabhrawatt.github.io/Learn-Web-developement/
