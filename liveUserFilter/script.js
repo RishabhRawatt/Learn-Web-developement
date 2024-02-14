@@ -13,9 +13,9 @@ async function getData() {
   //destructuring the results from the response data.results
   const { results } = await res.json();
 
+  //clear results
   result.innerHTML = "";
 
-  //clear results
   results.forEach((user) => {
     const li = document.createElement("li");
 

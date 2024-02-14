@@ -48,6 +48,7 @@ const projectMapping = {
   p39: "passwordStrengthBg",
   p40: "verifyAccountUi",
   p41: "liveUserFilter",
+  p42: "feedbackUi",
 };
 
 let isInside = false;
@@ -300,6 +301,12 @@ document.addEventListener("DOMContentLoaded", function () {
       number: "41",
       name: "Live user Filter",
       keywords: "filter , API",
+    },
+    {
+      id: "p42",
+      number: "42",
+      name: "Feedback UI ",
+      keywords: "Event bubbling , UI",
     },
   ];
 
