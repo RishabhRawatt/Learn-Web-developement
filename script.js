@@ -49,6 +49,7 @@ const projectMapping = {
   p40: "verifyAccountUi",
   p41: "liveUserFilter",
   p42: "feedbackUi",
+  p43: "customRangeSlider",
 };
 
 let isInside = false;
@@ -307,6 +308,12 @@ document.addEventListener("DOMContentLoaded", function () {
       number: "42",
       name: "Feedback UI ",
       keywords: "Event bubbling , UI",
+    },
+    {
+      id: "p43",
+      number: "43",
+      name: "Custom Range Slider ",
+      keywords: "Input , JS",
     },
   ];
 
