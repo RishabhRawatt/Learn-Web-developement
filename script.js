@@ -50,6 +50,7 @@ const projectMapping = {
   p41: "liveUserFilter",
   p42: "feedbackUi",
   p43: "customRangeSlider",
+  p44: "netflixNavigation",
 };
 
 let isInside = false;
@@ -314,6 +315,12 @@ document.addEventListener("DOMContentLoaded", function () {
       number: "43",
       name: "Custom Range Slider ",
       keywords: "Input , JS",
+    },
+    {
+      id: "p44",
+      number: "44",
+      name: "Netflix Navigation ",
+      keywords: "Hamburger Nav , Transition",
     },
   ];
 
