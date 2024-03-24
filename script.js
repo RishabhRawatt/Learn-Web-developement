@@ -51,6 +51,7 @@ const projectMapping = {
   p42: "feedbackUi",
   p43: "customRangeSlider",
   p44: "netflixNavigation",
+  p45: "quizApp",
 };
 
 let isInside = false;
@@ -321,6 +322,12 @@ document.addEventListener("DOMContentLoaded", function () {
       number: "44",
       name: "Netflix Navigation ",
       keywords: "Hamburger Nav , Transition",
+    },
+    {
+      id: "p45",
+      number: "45",
+      name: "Quiz App ",
+      keywords: "Json , JS",
     },
   ];
 
