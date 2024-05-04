@@ -52,7 +52,8 @@ const projectMapping = {
   p43: "customRangeSlider",
   p44: "netflixNavigation",
   p45: "quizApp",
-  p45: "testimonialBox",
+  p46: "testimonialBox",
+  p47: "randomImageFeed",
 };
 
 let isInside = false;
@@ -335,6 +336,12 @@ document.addEventListener("DOMContentLoaded", function () {
       number: "46",
       name: "Testimonial Box ",
       keywords: "JS , Animation",
+    },
+    {
+      id: "p47",
+      number: "47",
+      name: "Random Image Feed ",
+      keywords: "API , Unsplash",
     },
   ];
 
