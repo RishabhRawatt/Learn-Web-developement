@@ -54,6 +54,7 @@ const projectMapping = {
   p45: "quizApp",
   p46: "testimonialBox",
   p47: "randomImageFeed",
+  p48: "todoList",
 };
 
 let isInside = false;
@@ -342,6 +343,12 @@ document.addEventListener("DOMContentLoaded", function () {
       number: "47",
       name: "Random Image Feed ",
       keywords: "API , Unsplash",
+    },
+    {
+      id: "p48",
+      number: "48",
+      name: "TODO List",
+      keywords: "UI ,LocalStorage",
     },
   ];
 
