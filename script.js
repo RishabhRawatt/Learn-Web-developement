@@ -55,6 +55,8 @@ const projectMapping = {
   p46: "testimonialBox",
   p47: "randomImageFeed",
   p48: "todoList",
+  p49: "3dBoxesBackground",
+  p50: "catchInsectGame",
 };
 
 let isInside = false;
@@ -349,6 +351,18 @@ document.addEventListener("DOMContentLoaded", function () {
       number: "48",
       name: "TODO List",
       keywords: "UI ,LocalStorage",
+    },
+    {
+      id: "p49",
+      number: "49",
+      name: "3D Background Boxes",
+      keywords: "psudo-selector ,Animation",
+    },
+    {
+      id: "p50",
+      number: "50",
+      name: "Insect Game",
+      keywords: "JS ,Gamify",
     },
   ];
 
